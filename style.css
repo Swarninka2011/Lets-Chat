@@ -1,0 +1,103 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-image: linear-gradient(to right top, #a5eca5, #e4e00d, #1882c1, #af4097, #5e2254);
+}
+
+.header
+{
+	color: white;font-family:'Permanent Marker', cursive;;font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+.header img
+{
+	width: 80px;margin-left: -15px;
+	border-radius: 70px;
+}
+
+.login_div
+{
+	background: rgba(51, 30, 245, 0.8);float: none;border-radius: 15px;
+}
+
+.logo
+{
+	 border-width: 16px; width: 80px;margin-top: 30px;border-radius: 20px; border-color: #dbf305;
+}
+
+#login_button
+{
+	width: 80%;border-radius: 15px;
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+	background-color: #caf50c;
+}
+
+
+#logout
+{
+	font-size: 20px; float: left;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(236, 22, 22, 0.8);border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 50%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+#img1
+{
+	
+	border-color: #c13f18;
+	border-width: 50px;
+	border-radius: 100px;
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
